@@ -13,6 +13,6 @@ export const contagemDeClientesConcidentes =  (parteDoNome: string) => {
     }
   }
 
-  return contador as number;
+  return contador;
 
 }
