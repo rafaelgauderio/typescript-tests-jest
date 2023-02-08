@@ -1,4 +1,4 @@
-export type Client = {
+export type Cliente = {
     id: number;
-    name: string;
+    nome: string;
 }

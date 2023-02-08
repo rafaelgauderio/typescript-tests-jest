@@ -1,30 +1,35 @@
-import { Client } from "../types/client";
+import { Cliente } from "../types/client";
 
-export const requestClients = (): Client[] => {
+// requisicao de um array de clientes
+export const requisicaoClientes = (): Cliente[] => {
   return [
     {
       id: 1,
-      name: "Maria Brown",
+      nome: "Rafael de Luca",
     },
     {
       id: 2,
-      name: "Carlos Barros",
+      nome: "João da Silva",
     },
     {
       id: 3,
-      name: "Sandra Silva",
+      nome: "João da Souza",
     },
     {
       id: 4,
-      name: "Tiago Red",
+      nome: "Maria de Luca",
     },
     {
       id: 5,
-      name: "Marcos Vinicius",
+      nome: "Claudia Moraes",
     },
     {
       id: 6,
-      name: "Andrea Borges",
+      nome: "Luciana Maria Mello",
+    },
+    {
+      id: 7,
+      nome: "Maria da Silva",
     },
   ];
 };
